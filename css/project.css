@@ -11,5 +11,16 @@
 h1 {
   font-size: 30pt;
   text-align: center;
-  
+}
+
+.navbar-brand {
+  font-family: 'Parisienne', cursive;
+  font-size: 30pt;
+}
+
+img {
+  border-radius: 50%;
+  width: 250px;
+  margin-top: 50px;
+  margin-left: 800px;
 }

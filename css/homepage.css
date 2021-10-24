@@ -12,6 +12,7 @@ img {
 }
 
 .hp-project {
+  font-family: 'Quicksand', sans-serif;
   background-color: #96C6D9;
   border: none;
   color: white;
@@ -55,6 +56,7 @@ img {
 
 
 .aboutme-link {
+  font-family: 'Quicksand', sans-serif;
   background-color: #D8EBF2;
   border: none;
   color: #033859;

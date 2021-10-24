@@ -1,35 +1,17 @@
-h2 {
-  color: white;
-  font-size: 18pt;
-}
-
-p {
-  color: white;
-}
 img {
-  padding-top: 15px;
+  border-radius: 50%;
   width: 250px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px 0 20px 150px;
 }
 
 * {
   box-sizing: border-box;
 }
 
-
 .column {
   float: left;
+  width: 50%;
   padding: 10px;
-}
-
-.left {
-  width: 25%;
-}
-
-.right {
-  width: 75%;
 }
 
 .row:after {

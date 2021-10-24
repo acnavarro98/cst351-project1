@@ -1,12 +1,75 @@
 #proj-section {
-  padding: 200px;
-  margin-top: 75px;
-  background-color: #e3f2fd;
+  padding: 40px 200px;
+  background-color: #D8EBF2;
+  text-align: center;
+  color: white;
 }
 
 img {
   border-radius: 50%;
   width: 250px;
-  margin-top: 50px;
-  margin-left: 800px;
+  margin: 20px 0 20px 150px;
+}
+
+.hp-project {
+  background-color: #96C6D9;
+  border: none;
+  color: white;
+  padding: 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.hp-project:hover {
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+.aboutme-link {
+  background-color: #D8EBF2;
+  border: none;
+  color: #033859;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.aboutme-link:hover {
+  text-decoration: none;
+  color: #033859;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }

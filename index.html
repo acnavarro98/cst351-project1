@@ -11,13 +11,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/homepage.css">
     <link rel="stylesheet" type="text/css" href="css/project.css">
   </head>
+
   <body>
 <!--Navbar start -->
-    <nav class="navbar navbar-expand-sm py-3 sticky-top navbar-light" style="background-color: white;">
+    <nav class="navbar navbar-expand-sm sticky-top navbar-light" style="background-color: white;">
       <!--Logo/Name -->
       <a class="navbar-brand" href="index.html">Cecile Judy</a>
       <ul class="navbar-nav ml-auto">
@@ -27,7 +28,7 @@
         </li>
         <!--Link 2 dropdown -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
             PROJECTS</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="proj1/index.html">Project 1</a>
@@ -42,18 +43,37 @@
     </nav>
   <!--Navbar end -->
 
-
-  <img src="img/place_holder.jpg" alt="cecile photo">
-
-
-
-  <div id="proj-section">
-    <p>this is the quick project section</p>
+  <div class="row">
+    <div class="column" style="background-color: white; text-align: center; margin-top: 70px;">
+      <h1>WELCOME TO MY</h1>
+      <h1>PORTFOLIO!</h1>
+      <a class="aboutme-link" href="about/index.html">ABOUT ME</a>
+    </div>
+    <div class="column" style="background-color: white;">
+      <!--Replace image here -->
+      <img src="img/place_holder.jpg" alt="cecile photo">
+    </div>
   </div>
 
-  <div id="footer">
-  <p>footer section</p>
-</div>
+  <div id="proj-section">
+    <h2>PROJECTS</h2>
+    <br>
+    <a class="hp-project" href="proj1/index.html">PROJECT 1</a>
+    <a class="hp-project" href="proj2/index.html">PROJECT 2</a>
+  </div>
+
+  <div class="row">
+    <div class="column" style="background-color: white; text-align: right; margin-top: 30px;">
+      <h4>CECILE JUDY'S</h4>
+      <h4>PORTFOLIO</h4>
+    </div>
+    <div class="column" style="background-color: white; margin-top: 30px;">
+      <h5>CONTACT</h5>
+      <div id="footer-p">youremailhere@mail.com</div>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-github"></a>
+    </div>
+  </div>
 
   </body>
 </html>
